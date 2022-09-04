@@ -7,4 +7,24 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="light_green">#90a955</color>
+    <color name="yellowish">#e4b61a</color>
+    <color name="yellowish1">#ffeb54</color>
+    <color name="dark_yellow">#cca000</color>
+    <color name="black_coral">#596475</color>
+    <color name="lilac">#BC9EC1</color>
+    <color name="cameo_pink">#E3BAC6</color>
+    <color name="misty_rose">#FDE8E9</color>
+    <color name="raisin_black">#1F2232</color>
+    <color name="turquoise_green">#95D5B2</color>
+    <color name="mint">#52B788</color>
+    <color name="nyanza">#D8F3DC</color>
+    <!--    <color name="yellowish1" >#ffeb54</color>-->
+    <!--    <color name="yellowish1" >#ffeb54</color>-->
+    <!--    <color name="yellowish1" >#ffeb54</color>-->
+    <!--    <color name="yellowish1" >#ffeb54</color>-->
+    <!--    <color name="yellowish1" >#ffeb54</color>-->
+    <!--    <color name="yellowish1" >#ffeb54</color>-->
+    <!--    <color name="yellowish1" >#ffeb54</color>-->
+    <!--    <color name="yellowish1" >#ffeb54</color>-->
 </resources>
