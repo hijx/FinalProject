@@ -15,6 +15,7 @@
         android:layout_gravity="center"
         android:layout_marginTop="90dp"
         android:text="مركز التميز لذوي الاعاقه"
+        android:textStyle="bold"
         android:textColor="@color/turquoise_green"
         android:textSize="40sp" />
 
@@ -43,7 +44,7 @@
         android:layout_height="60dp"
         android:layout_gravity="center"
         android:layout_marginTop="80dp"
-        android:background="@drawable/custem_button1"
+        android:backgroundTint="@color/bottle_green"
         android:text="ابدا رحلتك معنا"
         android:textColor="@color/nyanza"
         android:textSize="25sp"
