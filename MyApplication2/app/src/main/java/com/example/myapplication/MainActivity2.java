@@ -22,14 +22,20 @@ public class MainActivity2 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
 
-        Action a1 = new Action("فعاليه الخياطه", R.drawable.img_3,
-                "فعاليه الخياطه هي فعاليع للفتيات فقط وسوف تتعلم ىفيها الفتيات اشيائ كثيره عن الخياطه",
-                "بعدين اكتب هذا" );
-        Action a2 = new Action("فعاليه التلويت", R.drawable.img_5,
-                "فعاليه الخياطه هي فعاليع للفتيات فقط وسوف تتعلم ىفيها الفتيات اشيائ كثيره عن الخياطه",
-                "بعدين اكتب هذا");
-        Action a3 = new Action("فعاليه بسمه الربيع", R.drawable.img, "فعاليه الخياطه هي فعاليع للفتيات فقط وسوف تتعلم ىفيها الفتيات اشيائ كثيره عن الخياطه",
-                "بعدين اكتب هذا");
+        Action a1 = new Action("فعاليه الخياطه",
+                R.drawable.img_3,
+                "فعاليه الخياطه هي فعاليه هادفه, تهدف الى ابراز موهبه الخياطه والتطريز و اظهار و تطوير الحس  الابداعي و المهارات اليدويه لدى المنتسبين للمركز ",
+                "للفتيات, اكبر من 15 سنه, البطاقه المدنيه, شهاده الاعاقه, القرار التاهيلي من المجلس");
+
+        Action a2 = new Action("فعاليه الرسم والتلوين",
+                R.drawable.img_5,
+                "فعاليه مليئه بالنشاط والحيويه, حيث الرسم فيها مختلف, يتمكن فيها المنتسب من ابراز المهارات الفنيه عن طريق مزج الالوان والاستمتاع باحدث الاساليب المستخدمه في الرسم والتلوين",
+                "للذكور والاناث, لكل الاعمار, البطاقه المدنيه, شهاده الاعاقه, القرار التاهيلي من المجلس");
+
+        Action a3 = new Action("فعاليه اصحاب الهمم",
+                R.drawable.img,
+                "تهدف هذه الفعاليه الى الغوص والانغماس في نفس المنتسب للوصول و معرفه اهم الاهداف و الاحلام التي يصبوا اليها كل كنتسب ومحاوله التعمق في الافكار و تقديم التشجيع المناسب لتحقيق هذه الاهداف والاحلام",
+                "للذكور والاناث, مناسب لكل الاعمار, البطاقه المدنيه, شهاده الاعاقه, القرار التاهيلي من المجلس");
 
 
         actions.add(a1);
@@ -44,7 +50,7 @@ public class MainActivity2 extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 Action currentAction = actions.get(i);
-                Intent intent = new Intent(MainActivity2.this , activity_details.class);
+                Intent intent = new Intent(MainActivity2.this, activity_details.class);
                 intent.putExtra("Action", currentAction);
                 startActivity(intent);
             }

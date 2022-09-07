@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/img_10"
+    android:background="@color/champagne_pink"
     android:orientation="vertical">
 
 
@@ -11,25 +11,26 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="تسجيل التسجيل"
-        android:textSize="40sp"
+        android:layout_gravity="center"
         android:layout_marginTop="30dp"
-        android:textStyle="bold"
-        android:textColor="@color/mint"
-        android:layout_gravity="center"/>
+        android:text="تسجيل في الفعاليه"
+        android:textColor="@color/chestnut"
+        android:textSize="40sp"
+        android:textStyle="bold" />
 
     <EditText
         android:id="@+id/editTextFullName"
         android:layout_width="380dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="40dp"
         android:background="#30ffffff"
         android:drawableRight="@drawable/ic_baseline_person_24"
         android:ems="10"
         android:hint=" الاسم كامل"
         android:padding="20dp"
-        android:textColorHint="@color/nyanza" />
+        android:textColor="@color/rose_brown"
+        android:textColorHint="@color/rose_brown" />
 
     <EditText
         android:id="@+id/editTextPhoneNumber"
@@ -42,7 +43,8 @@
         android:ems="10"
         android:hint=" رقم الهاتف"
         android:padding="20dp"
-        android:textColorHint="@color/nyanza" />
+        android:textColor="@color/rose_brown"
+        android:textColorHint="@color/rose_brown" />
 
     <EditText
         android:id="@+id/editTextEmail"
@@ -55,8 +57,8 @@
         android:ems="10"
         android:hint=" البريد الالكتروني"
         android:padding="20dp"
-        android:textColorHint="@color/nyanza"
-
+        android:textColor="@color/rose_brown"
+        android:textColorHint="@color/rose_brown"
         />
 
     <EditText
@@ -69,31 +71,31 @@
         android:drawableRight="@drawable/ic_baseline_info_24"
         android:ems="10"
         android:hint=" كلمه السري"
-        android:padding="20dp"
-        android:textColorHint="@color/nyanza" />
+        android:textColorHint="@color/rose_brown"
+        android:textColor="@color/rose_brown"
+        android:padding="20dp" />
 
     <Button
         android:id="@+id/registrationButton"
         android:layout_width="130dp"
         android:layout_height="60dp"
         android:layout_gravity="center"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="25dp"
         android:layout_marginBottom="30dp"
-        android:backgroundTint="@color/bottle_green"
+        android:background="@drawable/custem_button1"
+        android:enabled="false"
         android:text="تسجيل"
         android:textColor="@color/nyanza"
-        android:textSize="20sp"
-        android:enabled="false"
-        />
+        android:textSize="20sp" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="تستطيع التسجيل عن طريق"
-        android:textSize="20dp"
-        android:textColor="@color/turquoise_green"
         android:layout_gravity="center"
-        android:layout_marginBottom="20dp"/>
+        android:layout_marginBottom="10dp"
+        android:text="تستطيع التسجيل عن طريق"
+        android:textColor="@color/cedar_chest"
+        android:textSize="20dp" />
 
     <LinearLayout
         android:id="@+id/social_icons"

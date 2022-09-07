@@ -4,28 +4,28 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/img_10"
+    android:background="@color/champagne_pink"
     android:orientation="vertical"
     tools:context=".MainActivity">
+
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginTop="90dp"
-        android:text="مركز التميز لذوي الاعاقه"
-        android:textStyle="bold"
-        android:textColor="@color/turquoise_green"
-        android:textSize="40sp" />
-
+        android:gravity="center"
+        android:layout_marginTop="70dp"
+        android:text="مركز التميز لذوي الاحتياجات الخاصه"
+        android:textColor="@color/chestnut"
+        android:textSize="40sp"
+        android:textStyle="bold" />
 
     <ImageView
         android:id="@+id/imageView3"
         android:layout_width="wrap_content"
         android:layout_height="168dp"
         android:layout_gravity="center"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="30dp"
         app:srcCompat="@drawable/dis_people" />
 
     <TextView
@@ -33,9 +33,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="70dp"
+        android:layout_marginTop="50dp"
         android:text="شعارنا هو: لنكن صوتا لمن لا صوت له"
-        android:textColor="@color/turquoise_green"
+        android:textColor="@color/cedar_chest"
         android:textSize="20sp" />
 
     <Button
@@ -43,8 +43,8 @@
         android:layout_width="200dp"
         android:layout_height="60dp"
         android:layout_gravity="center"
-        android:layout_marginTop="80dp"
-        android:backgroundTint="@color/bottle_green"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/custem_button1"
         android:text="ابدا رحلتك معنا"
         android:textColor="@color/nyanza"
         android:textSize="25sp"
